@@ -1,0 +1,206 @@
+/* global styles */
+
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+:root {
+    --main-color: #00853F;
+    --secondary-color: #8CC63F;
+    --black: rgb(0, 0, 0);
+    --white: #fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ body {
+     background: lightgrey;
+     font-family: 'Open Sans', sans-serif;
+     /* rems will be responsive pixel size - ex: 1.4rem = 14px; */
+     font-size: 1.4rem; 
+ }
+
+ bootstrap field group
+ bundle copy
+ features
+ date
+ entityreference
+ 
+
+
+
+ /* header styles */
+
+h1, .h1 { font-size: 3.2rem; }
+h2, .h2 { font-size: 2.4rem; }
+h3, .h3 { font-size: 2.08rem;}
+h4, .h4 { font-size: 1.6rem; }
+h5, .h5 { font-size: 1.28rem;}
+h6, .h6 { font-size: 1.12rem; }
+
+ h1, .h1, h2, .h2
+ h3, .h3, h4, .h4,
+ h5, .h5, h6, .h6 {
+     color: var(--main-color);
+     font-family: 'Open Sans', sans-serif;
+     text-shadow: 1px 1px black;
+ }
+
+ /* navbar styles */
+
+ .navbar-default .navbar-brand {
+     color: var(--main-color);
+ }
+
+ .navbar-default .navbar-nav > .active > a {
+     color: var(--secondary-color);
+ }
+
+ .navbar-default .navbar-nav > li > a {
+     color: var(--main-color);
+ }
+
+ .navbar-nav > li a {
+    transition: 0.3s ease;
+}
+
+ .navbar-nav > li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--secondary-color);
+    -webkit-transition: width .3s;
+    -o-transition: width .3s;
+    transition: width .3s; 
+}
+
+ .navbar-nav > li a:hover::after {
+    color: var(--secondary-color) !important;
+    width: 100%;
+    -webkit-transition: width .3s;
+    -o-transition: width .3s;
+    transition: width .3s;
+}
+
+ a {
+     color: var(--secondary-color);
+     font-weight: bold;
+ }
+
+ a:hover {
+     color: var(--main-color);
+ }
+
+ /* body text styles */
+
+ p {
+     line-height: 1.5;
+ }
+
+ p, a {
+     font-size: 1.4rem;
+ }
+
+ ul, ol {
+     padding: 0;
+     margin: 0;
+     list-style: none;
+ }
+
+ .medium-text {
+     font-size: 1.6rem;
+ }
+
+ .large-text {
+     font-size: : 2.0rem;
+ }
+
+ .center-text {
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ .left-text {
+     margin: 0;
+     text-align: left;
+ }
+
+ .right-text {
+     text-align: right;
+ }
+
+ .uppercase-text {
+     text-transform: uppercase;
+ }
+
+ .lowercase-text {
+     text-transform: lowercase;
+ }
+
+ .capitalize-text {
+     text-transform: uppercase;
+ }
+
+ .ctl-text {
+     color: var(--main-color);
+ }
+
+ .success-text {
+     color: green;
+ }
+
+ .warning-text {
+     color: goldenrod;
+ }
+
+ .danger-text {
+     color: tomato;
+ }
+
+ .info-text {
+     color: dodgerblue;
+ }
+
+ .mute-text {
+     color: slategrey;
+ }
+
+ /* color styles */
+
+ .bg-none {
+    background: none;
+ }
+
+ .bg-transparent {
+    background: transparent;
+ }
+
+ .bg-ctl {
+    background: var(--main-color);
+ }
+
+ .bg-ctl-secondary {
+    background: var(--secondary-color);
+ }
+
+ .bg-black {
+    background: black;
+ }
+
+ .bg-white {
+    background: white;
+ }
+
+ .bg-grey {
+    background: lightgrey;
+ }
+
+ /* button styles */
+
+ .btn-default {
+    color: white;
+    background: var(--main-color);
+    border: 1px solid var(--secondary-color);
+    box-shadow: 1px 1px grey;
+ }
