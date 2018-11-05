@@ -1,0 +1,28 @@
+// variables
+
+// fonts
+$heading-font: 'Open Sans', sans-serif;
+
+// colors
+$primary-color: #00853F;
+$secondary-color: #8CC63F;
+$alt-color: yellow;
+$black: rgb(0,0,0);
+$white: #fff;
+
+/* media breakpoints */
+$small-screen : 450px;
+$medium-screen : 775px;
+$large-screen: 850px;
+
+@media (max-width: $large-screen) {
+
+}
+
+@media (max-width: $medium-screen) {
+    
+}
+
+@media (max-width: $small-screen) {
+    
+}
